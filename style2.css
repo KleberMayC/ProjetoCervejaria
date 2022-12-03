@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+body {
+    background-color: #353030;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+section {
+    display: flex;
+    background-color: #CA7900;;
+    width: 1238px;
+    height: 257px;
+    justify-items: center;
+    justify-content: center;
+    align-items: center;
+    margin-left: 18%;
+    border-radius: 40px;
+}
+
+h2 {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 45px;
+    line-height: 53px;
+    /* identical to box height */
+
+    text-align: center;
+
+    color: #FFFFFF;
+}
+
+.menu{
+    height: 10vh;
+    display: flex; /*deixar flex para poder mover*/
+    justify-content: space-around; /*para separar os itens da lista*/
+    background-color: #CA7900;
+    box-shadow: 0 0 1rem black;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #F5F5F5;
+
+}
+
+ul {
+    display: flex; /*para ficar um do lado do outro*/
+    margin: 60px;
+    
+}
+
+li {
+    color: rgb(0, 0, 0);
+    list-style-type: none; /*para tirar as bolinhas do lado */
+    cursor: pointer;
+    padding-left: 2rem;
+}
+
+a{
+    text-decoration: none;
+    padding: 10px;
+    font-family: 'Raleway';
+    font-style: normal;
+    padding-left: 10rem;
+    font-size: 36px;
+    
+
+    color: #F5F5F5;
+}
+
+.content {
+    margin-top: 20px;
+}
